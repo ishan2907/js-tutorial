@@ -30,4 +30,24 @@ function loginUserMessage(username=ishan){//default value
     }
 }
 
-console.log(loginUserMessage(""))
+// console.log(loginUserMessage(""))
+function calculateCartPrice(val1,val2,...num1){//(...) is rest as well as spread operator ,rest operator is used to take as many parameters as well wants.this comes handy in shopping carts
+
+    return num1;//... is rest operator
+}
+// console.log(calculateCartPrice(2,3,4,5))
+const user={
+    username:"ishan",
+    price:200
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+
+}
+// handleObject(user)
+const myarr=[1,2,3,4]
+function returnSecond(arr){
+    return arr[1];
+}
+console.log(returnSecond(myarr))
+console.log(returnSecond([20,30,40]));
